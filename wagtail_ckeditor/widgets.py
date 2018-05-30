@@ -23,7 +23,7 @@ class CKEditor(WidgetWithScript, widgets.Textarea):
         if value is None:
             translated_value = None
         else:
-            translated_value = expand_db_html(value, for_editor=True)
+            translated_value = expand_db_html(value)
         return super().render(name, translated_value, attrs)
 
     def render_js_init(self, editor_id, name, value):
