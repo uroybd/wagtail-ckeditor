@@ -1,0 +1,11 @@
+recursive-include wagtail_ckeditor *.js
+recursive-include wagtail_ckeditor *.css
+recursive-include wagtail_ckeditor *.eot
+recursive-include wagtail_ckeditor *.svg
+recursive-include wagtail_ckeditor *.ttf
+recursive-include wagtail_ckeditor *.woff
+recursive-include wagtail_ckeditor *.txt
+recursive-include wagtail_ckeditor *.jpg
+recursive-include wagtail_ckeditor *.gif
+recursive-include wagtail_ckeditor *.png
+include *.rst
